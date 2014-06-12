@@ -28,9 +28,16 @@ fi
 # List direcory contents
 alias lsa='ls -lah'
 alias l='ls -lah'
-alias ll='ls -lh'
+alias ll='ls -ltr -a'
 alias la='ls -lAh'
 alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
+
+#alias git
+alias pull='git pull --rebase'
+alias st='git status'
+alias t='git log -5'
+alias gcm='git co master'
+alias grm='git rebase maser'
 
